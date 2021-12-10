@@ -1,0 +1,31 @@
+site_name: 王昊
+site_url: http://home.ustc.edu.cn/~harryw/
+site_author: Harry Wang 王昊
+site_description: >-
+  my home page
+# Repository
+repo_name: harryustc/personal_page
+repo_url: https://github.com/harryustc/personal_page
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2021 Harry Wang 王昊
+
+# Configuration
+theme:
+  name: material
+
+  # Default values
+  language: en
+  features:
+    - content.code.annotate
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+
+nav:
+  - home: index.md
